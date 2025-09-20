@@ -105,8 +105,8 @@ elif [ "$count" -gt 1 ]; then
         uci set network.lan.ipaddr=$CUSTOM_IP
         echo "custom router ip is $CUSTOM_IP" >> $LOGFILE
     else
-        uci set network.lan.ipaddr='10.0.0.3'
-        echo "default router ip is 10.0.0.3" >> $LOGFILE
+        uci set network.lan.ipaddr='10.0.0.2'
+        echo "default router ip is 10.0.0.2" >> $LOGFILE
     fi
 
     # PPPoE设置
